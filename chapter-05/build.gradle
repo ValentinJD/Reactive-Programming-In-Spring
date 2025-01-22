@@ -23,12 +23,14 @@ repositories {
 	mavenCentral()
 	maven { url 'https://repo.spring.io/milestone' }
 	maven { url 'https://repo.spring.io/snapshot' }
-	maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+	maven { url 'https://mvnrepository.com/artifact'}
+	mavenLocal()
+//	maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
 }
 
 ext {
 	reactorExtraVersion = '3.2.0.RELEASE'
-	springBootAdminVersion = '2.1.0-SNAPSHOT'
+	springBootAdminVersion = '2.0.6'
 	springCloudVersion = 'Greenwich.BUILD-SNAPSHOT'
 }
 
